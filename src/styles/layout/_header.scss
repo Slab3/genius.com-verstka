@@ -1,0 +1,81 @@
+header {
+
+}
+
+.header-padd {
+  padding: 0 5px;
+}
+
+
+.line-1-header {
+  background-color: #ffff64;
+  padding: 7px 0;
+
+  .nav-link {
+    color: #000000;
+    padding: 0 8px 4px;
+    font-size: 13px;
+    &:hover {
+      border-bottom: 5px solid deeppink;
+    }
+  }
+}
+
+//==================================== 2 line header
+.line-2-header {
+  background-color: black;
+  padding: 7px 0;
+  font-size: 14px;
+
+  .nav-link {
+    color: white;
+    &:hover {
+      color: #ffff64;
+    }
+  }
+  img {
+    max-height: 23px;
+  }
+}
+.header-2line {
+  max-width: 60%;
+}
+
+// ================================= 2 line header end
+
+.search-icon-input {
+  border: none;
+  padding: 0 8px;
+  margin-top: 0;
+
+}
+.search-icon {
+  background-color: white;
+  margin: 0 auto;
+
+  svg {
+    padding: 3px 0;
+    width: 20px;
+    margin: auto 0;
+  }
+}
+
+//======================================= LOGO "GENIUS" middle
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  vertical-align: center;
+  svg {
+    width: 120px;
+    margin: 4px 0 0;
+  }
+}
+
+//======================================= images from "Navigation bar"
+.nav-link {
+  svg {
+    width: 18px;
+    vertical-align: center;
+  }
+}

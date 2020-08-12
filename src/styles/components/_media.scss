@@ -1,0 +1,33 @@
+embed,
+img,
+object,
+video {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+//====================standard styles higher==================
+@media screen and (max-width: 1300px) {
+
+  .header-2line {
+    max-width: 80%;
+  }
+
+  .all-news {
+    max-width: 85%;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .header-2line {
+    max-width: 95%;
+  }
+
+  .all-news {
+    max-width: 95%;
+  }
+
+}

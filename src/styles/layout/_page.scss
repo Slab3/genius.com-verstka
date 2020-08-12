@@ -1,0 +1,94 @@
+.main-news {
+  width: 100%;
+  margin: 70px auto 0;
+  h2 {
+    line-height: 1.2;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .news-h {
+    font-size: 14px;
+  }
+
+  .col-md {
+
+      .author-news {
+        font-size: 12px;
+      }
+
+  }
+  .left-col-5 {
+    margin-right: 65px;
+    width: 35%;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+  .right-col-7 {
+    width: 65%;
+    img {
+
+      //-------------------------- тут треба бекграуд імейдж шоб повторювалось якщо картинка квадратна
+    }
+  }
+}
+
+.after-element {
+  &:after {
+    content: "";
+    display: block;
+    width: 100%;  //100% поставить сюда
+    height: 3px;
+    margin: 11px 15px 0;
+    background-color: black;
+    color: black;
+  }
+}
+
+//================================================ Small news elements
+.small-news {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  line-height: 1.2;
+
+  h2 {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .one-small-news {
+    width: 25%;
+    border-right: 2px solid black;
+    padding: 0 25px 0 25px;
+    &:last-child {
+      border-style: none;
+      padding-right: 0;
+    }
+    &:first-child {
+      padding-left: 0;
+    }
+  }
+  .news-h {
+    font-size: 14px;
+  }
+}
+
+.author-small-news {
+    font-size: 12px;
+}
+.date-of-news {
+  font-size: 12px;
+  color: #999999;
+}
+
+.bottom-align {
+  bottom: 0;
+  max-width: 100%;
+}
+
+.small-img-news {
+
+}
+

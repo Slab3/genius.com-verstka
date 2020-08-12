@@ -1,0 +1,60 @@
+footer {
+  background-color: black;
+  padding: 10px 0;
+
+  .footer {
+    margin: 30px auto; // відступ зсередини футера зверху та знизу
+  }
+  a {
+    color: white;
+    font-size: 15px;
+    &:hover {
+      color: lightblue;
+    }
+  }
+
+  .nav-link {
+    color: white;
+  }
+}
+
+.info-genius {
+  max-width: 40%;
+  .social-media-f {
+    margin-top: 15px;
+  }
+  h1 {font-size: 2.25rem; font-weight: 100;}
+
+  img {
+    max-height: 32px;
+    margin-right: 15px;
+  }
+}
+
+.items-links {
+  margin-top: 10px;
+}
+
+.links1, .links2 {
+  max-width: 15%; //щирина блоків з посиланнями в футері
+}
+
+.verified-artists {
+  max-width: 15%;
+}
+
+.all-artists {
+  width: 50%;
+  font-size: 15px;
+  a {
+    margin-right: 5px;
+  }
+  span {
+    margin-right: 20px;
+  }
+}
+
+.lower-footer {
+  margin: 30px auto;
+
+}
