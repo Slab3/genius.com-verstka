@@ -59,9 +59,13 @@
     }
   }
   .one-small-news {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 25%;
     border-right: 2px solid black;
     padding: 0 25px 0 25px;
+
     &:last-child {
       border-style: none;
       padding-right: 0;
@@ -73,6 +77,7 @@
   .news-h {
     font-size: 14px;
   }
+
 }
 
 .author-small-news {
@@ -83,10 +88,6 @@
   color: #999999;
 }
 
-.bottom-align {
-  bottom: 0;
-  max-width: 100%;
-}
 
 .small-img-news {
 

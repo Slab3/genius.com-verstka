@@ -5,7 +5,9 @@
   "license": "MIT",
   "description": "",
   "main": "gulpfile.babel.js",
-  "dependencies": {},
+  "dependencies": {
+    "caniuse-lite": "^1.0.30000974"
+  },
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
