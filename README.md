@@ -1,1 +1,1 @@
-### Layout practice on the example of [genius.com](genius.com) website design 
+### Layout practice on the example of [genius.com](https://genius.com/) website design 
